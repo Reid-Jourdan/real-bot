@@ -1,5 +1,6 @@
 #include "main.h"
 
+//this is the function that run every cycle
 void drivetrainPeriodic(){
     //get joysticks for arcade
     int y1 = controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y);
